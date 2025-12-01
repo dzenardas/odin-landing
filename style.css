@@ -18,7 +18,7 @@ body {
 /* Header */
 header {
     background: #1F2937;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 .header-content {
@@ -47,8 +47,6 @@ nav a {
 
 .hero-content {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .hero-text {
@@ -57,24 +55,23 @@ nav a {
 
 .hero-text h1 {
     font-size: 48px;
-    color: #E5E7EB;
-    font-weight: 800;
-    margin-bottom: 0;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .hero-text p {
     color: #E5E7EB;
-    margin-bottom: 20px;
-    margin-top: 0;
+    margin-bottom: 5px
 }
 
 .hero-text button {
     background: #3882F6;
     color: white;
-    padding: 2px 15px;
+    padding: 5px 15px;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -94,10 +91,13 @@ nav a {
     color: #1F2937;
     padding-bottom: 40px;
     padding-top: 40px;
+    margin-top: 5px;
 }
 
 .info h2 {
     font-size: 36px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .info-boxes {
@@ -132,17 +132,19 @@ nav a {
     color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    margin-bottom: 0;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 80px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 .author {
     text-align: right;
     font-weight: bold;
     padding-bottom: 60px;
-
+    margin-bottom: 5px;
+    margin-left: 120px;
 }
 
 /* Call to action */
@@ -177,4 +179,5 @@ nav a {
     background:#1F2937;
     color: white;
     padding: 25px;
+    margin-top: 5px;
 }
